@@ -25,7 +25,7 @@ int exec()
 		if (mean > 0 && votes > 0)
 			std::cout << "TOP250 SCORE BAYESIAN ESTIMATE: "
 				<< bayesian_est(mean, votes) << std::endl;
-		system("PAUSE");
+		system("PAUSE"); //windows
 	}
 
 	return 0;
